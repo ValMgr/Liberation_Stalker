@@ -25,5 +25,6 @@ civilians = [
 
 // Civilian vehicle classnames.
 civilian_vehicles = [
-  "C_Van_01_transport_F"
+  "C_Van_01_transport_F",
+  "C_Van_02_transport_F"
 ];

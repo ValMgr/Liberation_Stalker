@@ -6740,7 +6740,7 @@
             <English>Wastelanders</English>
         </Key>
         <Key ID="STR_ANOMALIES_ACTIVE">
-            <English>Zombies</English>
+            <English>Use anomalies ?</English>
         </Key>
         <Key ID="STR_ANOMALIES_ACTIVE1">
             <English>Off</English>
@@ -6750,23 +6750,7 @@
         </Key>
         <Key ID="STR_ANOMALY_COUNT">
             <English>Stalker Anomaly Count</English>
-        </Key>
-        <Key ID="STR_ANOMALY_COUNT1">
-            <English>1000 Anomalies</English>
-        </Key>
-        <Key ID="STR_ANOMALY_COUNT2">
-            <English>2000 Anomalies</English>
-        </Key>
-        <Key ID="STR_ANOMALY_COUNT3">
-            <English>3000 Anomalies</English>
-        </Key>
-        <Key ID="STR_ANOMALY_COUNT4">
-            <English>4000 Anomalies</English>
-        </Key>
-        <Key ID="STR_ANOMALY_COUNT5">
-            <English>5000 Anomalies</English>
-        </Key>
-        
+        </Key>      
 
     </Package>
 </Project>

@@ -40,7 +40,7 @@ class Params {
         title = $STR_CIVILIAN_FACTION;
         values[] = {0, 1};
         texts[] = {$STR_CIVILIAN_FACTION1, $STR_CIVILIAN_FACTION2};
-        default = 1;
+        default = 0;
     };
     class Anomalies_Active {
         title = $STR_ANOMALIES_ACTIVE;
@@ -50,9 +50,9 @@ class Params {
     };
     class Anomaly_Count {
         title = $STR_ANOMALY_COUNT;
-        values[] = {0, 1, 2, 3, 4};
-        texts[] = {$STR_ANOMALY_COUNT1, $STR_ANOMALY_COUNT2, $STR_ANOMALY_COUNT3, $STR_ANOMALY_COUNT4, $STR_ANOMALY_COUNT5};
-        default = 2;
+        values[] = {1000, 2000, 3000, 4000, 5000};
+        texts[] = {"1000", "2000", "3000", "4000", "5000"};
+        default = 3000;
     };
     class Spacer1 {
         title = "";
@@ -76,13 +76,13 @@ class Params {
         title = $STR_PARAMS_DIFFICULTY;
         values[] = {0, 1, 2, 3, 4, 5, 6, 7};
         texts[] = {$STR_PARAMS_DIFFICULTY1, $STR_PARAMS_DIFFICULTY2, $STR_PARAMS_DIFFICULTY3, $STR_PARAMS_DIFFICULTY4, $STR_PARAMS_DIFFICULTY5, $STR_PARAMS_DIFFICULTY6, $STR_PARAMS_DIFFICULTY7, $STR_PARAMS_DIFFICULTY8};
-        default = 2;
+        default = 6;
     };
     class Aggressivity {
         title = $STR_AGGRESSIVITY_PARAM;
         values[] = {0, 1, 2, 3, 4};
         texts[] = {$STR_AGGRESSIVITY_PARAM0, $STR_AGGRESSIVITY_PARAM1, $STR_AGGRESSIVITY_PARAM2, $STR_AGGRESSIVITY_PARAM3, $STR_AGGRESSIVITY_PARAM4};
-        default = 2;
+        default = 4;
     };
     class AdaptToPlayercount {
         title = $STR_PARAM_ADAPT_TO_PLAYERCOUNT;
@@ -94,13 +94,13 @@ class Params {
         title = $STR_PARAMS_CIVILIANS;
         values[] = {0, 1, 2, 3};
         texts[] = {$STR_PARAMS_CIVILIANS1, $STR_PARAMS_CIVILIANS2, $STR_PARAMS_CIVILIANS3, $STR_PARAMS_CIVILIANS4};
-        default = 2;
+        default = 0;
     };
     class FirstFob {
         title = $STR_PARAMS_FIRSTFOB;
         values[] = {1, 0};
         texts[] = {$STR_YES, $STR_NO};
-        default = 0;
+        default = 1;
     };
     class FirstFobVehicle {
         title = $STR_PARAMS_FIRSTFOBVEHICLE;
@@ -118,7 +118,7 @@ class Params {
         title = $STR_PARAM_SQUAD_SIZE;
         values[] = {0, 1, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36};
         texts[] = {0, 1, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36};
-        default = 24;
+        default = 8;
     };
     class BluforDefenders {
         title = $STR_PARAM_BLUFOR_DEFENDERS;
@@ -136,7 +136,7 @@ class Params {
         title = $STR_PARAMS_DAYDURATION;
         values[] = {12, 8, 6, 4, 3, 2, 1};
         texts[] = {"2", "3","4","6","8","12","24"};
-        default = 4;
+        default = 12;
     };
     class ShorterNights {
         title = $STR_SHORTER_NIGHTS_PARAM;
@@ -178,7 +178,7 @@ class Params {
         title = $STR_PARAMS_VICTORYCONDITION;
         values[] = {0, 1, 2, 3, 4};
         texts[] = {$STR_PARAMS_VICTORYCONDITION_0, $STR_PARAMS_VICTORYCONDITION_1, $STR_PARAMS_VICTORYCONDITION_2, $STR_PARAMS_VICTORYCONDITION_3, $STR_PARAMS_VICTORYCONDITION_4};
-        default = 1;
+        default = 4;
     };
     class Spacer2 {
         title = "";
@@ -346,7 +346,7 @@ class Params {
         title = $STR_PARAM_HIGHCOMMAND;
         values[] = {1, 0};
         texts[] = {$STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED};
-        default = 1;
+        default = 0;
     };
     class SuppMod {
         title = $STR_PARAM_SUPPMOD;
